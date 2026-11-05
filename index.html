@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGBSE Class 12 Biology - English Medium Question Paper & Evaluation Portal</title>
+    <!-- Google Fonts for crisp typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header & Official Board Identity -->
+    <header class="exam-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="board-brand">
+                    <div class="board-emblem">CG</div>
+                    <div class="board-info">
+                        <h1>CHHATTISGARH BOARD OF SECONDARY EDUCATION, RAIPUR</h1>
+                        <h2>Higher Secondary Certificate Examination • Class 12 (English Medium)</h2>
+                    </div>
+                </div>
+                <div class="header-badges">
+                    <span class="badge badge-gold">Subject: Biology (203)</span>
+                    <span class="badge badge-blue">Theory: 70 Marks</span>
+                    <span class="badge badge-green">Predicted Exam 2027</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-bar">
+        <div class="container">
+            <ul class="nav-tabs">
+                <li><button type="button" class="nav-btn active" data-tab="exam">📝 Predicted Exam Paper</button></li>
+                <li><button type="button" class="nav-btn" data-tab="result">📊 Result & Scorecard</button></li>
+                <li><button type="button" class="nav-btn" data-tab="history">📜 Submission History</button></li>
+                <li><button type="button" class="nav-btn" data-tab="analysis">🔍 3-Year Paper Analysis</button></li>
+                <li><button type="button" class="nav-btn" data-tab="predictions">🎯 2027 Hot Predictions</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-wrapper">
+        <div class="container">
+
+            <!-- ================= TAB 1: EXAM PAPER ================= -->
+            <section class="tab-pane active" id="tab-exam">
+                
+                <!-- Sticky Top Bar with Timer & Controls -->
+                <div class="exam-sticky-bar">
+                    <div class="timer-box">
+                        <span class="timer-icon">⏱️</span>
+                        <div>
+                            <div style="font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Time Remaining (3 Hours)</div>
+                            <div class="timer-digits" id="timerDisplay">03:00:00</div>
+                        </div>
+                    </div>
+                    <div class="exam-controls">
+                        <span class="badge badge-blue" id="answeredCount">0 / 33 Answered</span>
+                        <button type="button" class="btn btn-outline btn-sm" id="btnPauseTimer">⏸ Pause</button>
+                        <button type="button" class="btn btn-outline btn-sm" onclick="window.appInstance.fillSampleAnswers()" title="Load sample answers for quick testing">⚡ Demo Fill</button>
+                        <button type="button" class="btn btn-accent" id="btnSubmitPaper">✅ Submit & Check Marks</button>
+                    </div>
+                </div>
+
+                <div class="exam-layout">
+                    <!-- Main Question Sheet -->
+                    <div class="exam-content-area">
+                        
+                        <!-- Paper Header & Instructions -->
+                        <div class="paper-sheet">
+                            <div class="official-header-box">
+                                <div style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted); margin-bottom: 0.2rem;">छत्तीसगढ़ माध्यमिक शिक्षा मंडल, रायपुर</div>
+                                <h2 class="official-title">CHHATTISGARH BOARD OF SECONDARY EDUCATION, RAIPUR</h2>
+                                <h3 class="official-subtitle">HIGHER SECONDARY EXAMINATION - 2027 (PREDICTED MODEL PAPER)</h3>
+                                <div style="font-weight: 700; color: #1e3a8a;">BIOLOGY (जीव विज्ञान) - ENGLISH MEDIUM</div>
+                                <div class="official-meta-row">
+                                    <span>Subject Code: <strong>203</strong></span>
+                                    <span>Time: <strong>3 Hours (180 Mins)</strong></span>
+                                    <span>Maximum Marks: <strong>70</strong></span>
+                                </div>
+                            </div>
+
+                            <div class="instructions-card">
+                                <h3>General Instructions (सामान्य निर्देश):</h3>
+                                <ul class="instructions-list">
+                                    <li><strong>1.</strong> All questions are compulsory. Internal choice is provided in questions 17, 18, and 19.</li>
+                                    <li><strong>2.</strong> <strong>Question No. 1</strong> carries 15 marks total:
+                                        <ul>
+                                            <li>Part (i) to (x): 10 Multiple Choice Questions (1 mark each). Select the correct option.</li>
+                                            <li>Part (xi) to (xv): 5 Very Short Answer questions (1 mark each). Answer in one word or one sentence.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>3.</strong> <strong>Question Nos. 2 to 8:</strong> Short Answer Type-I carrying 2 marks each (Word limit: approx. 30 words).</li>
+                                    <li><strong>4.</strong> <strong>Question Nos. 9 to 14:</strong> Short Answer Type-II carrying 3 marks each (Word limit: approx. 50 words).</li>
+                                    <li><strong>5.</strong> <strong>Question Nos. 15 and 16:</strong> Long Answer Type-I / Case-Study carrying 4 marks each (Word limit: approx. 75 to 100 words).</li>
+                                    <li><strong>6.</strong> <strong>Question Nos. 17 to 19:</strong> Long Answer Type-II carrying 5 marks each (Word limit: approx. 100 to 150 words).</li>
+                                    <li><strong>7.</strong> Illustrate your answers with neat, well-labeled diagrams wherever required.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dynamic Sections Container -->
+                            <div id="paperSectionsContainer">
+                                <!-- Populated dynamically by app.js -->
+                            </div>
+
+                            <div style="text-align: center; margin-top: 2rem; padding: 2rem 0; border-top: 2px dashed #cbd5e1;">
+                                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">Finished writing all your answers? Click below to run AI & rubric evaluation.</p>
+                                <button type="button" class="btn btn-accent" style="padding: 0.85rem 2rem; font-size: 1.05rem;" onclick="window.appInstance.confirmSubmit()">
+                                    🚀 Submit Paper & Calculate Score
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Sidebar Question Palette -->
+                    <aside class="exam-sidebar">
+                        <div class="palette-card">
+                            <div class="palette-title">
+                                <span>Question Navigator</span>
+                                <span style="font-size: 0.8rem; color: var(--primary-color);">Total: 33 Items (Q.1-Q.19)</span>
+                            </div>
+
+                            <div class="palette-legend">
+                                <div class="legend-item"><div class="legend-dot dot-answered"></div> Answered</div>
+                                <div class="legend-item"><div class="legend-dot dot-unanswered"></div> Unanswered</div>
+                                <div class="legend-item"><div class="legend-dot dot-flagged"></div> Flagged</div>
+                            </div>
+
+                            <div class="palette-grid" id="paletteButtonsGrid">
+                                <!-- Palette buttons rendered dynamically -->
+                            </div>
+
+                            <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; font-size: 0.78rem; color: var(--text-muted); line-height: 1.4;">
+                                💡 <em>Click any question number above to jump directly to it. Your responses are auto-saved in real-time.</em>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+
+            <!-- ================= TAB 2: RESULT & SCORECARD ================= -->
+            <section class="tab-pane" id="tab-result">
+                <div id="scorecardContainer">
+                    <div style="text-align: center; padding: 4rem 1rem; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0;">
+                        <span style="font-size: 3rem;">📝</span>
+                        <h3 style="font-size: 1.25rem; font-weight: 700; margin-top: 1rem;">No Test Submitted Yet</h3>
+                        <p style="color: var(--text-muted); margin-top: 0.4rem; max-width: 450px; margin-left: auto; margin-right: auto;">
+                            Complete the predicted examination paper in the first tab and hit <strong>"Submit & Check Marks"</strong> to receive an instant evaluation, marks breakdown, and CGBSE model answers.
+                        </p>
+                        <button type="button" class="btn btn-primary" style="margin-top: 1.5rem;" onclick="window.appInstance.switchTab('exam')">
+                            Go to Exam Paper
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= TAB 3: SUBMISSION HISTORY ================= -->
+            <section class="tab-pane" id="tab-history">
+                
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+                    <div>
+                        <h2 style="font-size: 1.4rem; font-weight: 700; color: #0f172a;">Exam Attempts & Progress History</h2>
+                        <p style="color: var(--text-muted); font-size: 0.88rem;">Track your previous scores, time spent, and performance analytics over multiple test attempts.</p>
+                    </div>
+                    <button type="button" class="btn btn-outline btn-sm" onclick="window.appInstance.clearAllHistory()">
+                        🗑️ Clear All History
+                    </button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-overview-grid" id="historyStatsGrid">
+                    <!-- Populated dynamically -->
+                </div>
+
+                <!-- History Table -->
+                <div class="history-table-card">
+                    <div class="history-table-header">
+                        <strong style="font-size: 1rem; color: #0f172a;">Recorded Exam Submissions</strong>
+                    </div>
+                    <div style="overflow-x: auto;">
+                        <table class="history-table">
+                            <thead>
+                                <tr>
+                                    <th>Attempt Name</th>
+                                    <th>Date & Time</th>
+                                    <th>Duration</th>
+                                    <th>Score Obtained</th>
+                                    <th>Result / Grade</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="historyTableBody">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- ================= TAB 4: 3-YEAR ANALYSIS ================= -->
+            <section class="tab-pane" id="tab-analysis">
+                
+                <div class="analysis-intro-banner">
+                    <h2 style="font-size: 1.35rem; font-weight: 700; color: #1e3a8a; margin-bottom: 0.4rem;">
+                        CGBSE Class 12 Biology: 3-Year Paper Analysis (2024, 2025, 2026)
+                    </h2>
+                    <p style="font-size: 0.9rem; color: #334155;">
+                        A rigorous comparative audit of Chhattisgarh Board Class 12 English Medium Biology theory papers. This blueprint reveals repeating question cycles, weightage trends across the 5 core units, and high-yield concepts.
+                    </p>
+                </div>
+
+                <!-- 3-Year Comparative Trend Table -->
+                <div class="trend-table-box">
+                    <table class="trend-table">
+                        <thead>
+                            <tr>
+                                <th>Unit & Weightage</th>
+                                <th>2024 Exam Questions</th>
+                                <th>2025 Exam Questions</th>
+                                <th>2026 Exam Questions</th>
+                                <th>Examiner Pattern & Trend</th>
+                            </tr>
+                        </thead>
+                        <tbody id="trendTableBody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Recurring Diagrams Ranking -->
+                <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.5rem; margin-top: 2rem;">
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0f172a; margin-bottom: 0.35rem;">
+                        High-Yield Diagram Frequency Ranking (3 & 5 Marks)
+                    </h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+                        Diagrams carry up to 18–20 marks directly or indirectly in CGBSE Biology. These 8 diagrams account for over 80% of visual questions:
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.85rem;" id="diagramFrequencyList">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- ================= TAB 5: 2027 PREDICTIONS ================= -->
+            <section class="tab-pane" id="tab-predictions">
+                
+                <div class="analysis-intro-banner" style="border-left-color: var(--accent-color);">
+                    <h2 style="font-size: 1.35rem; font-weight: 700; color: #92400e; margin-bottom: 0.4rem;">
+                        🎯 Predicted High-Probability Questions for 2027 CGBSE Board
+                    </h2>
+                    <p style="font-size: 0.9rem; color: #451a03;">
+                        Statistical probability forecast computed using 3-year alternation rhythms, syllabus weightage ceilings, and NCERT-CGBSE core repository trends. Focus your final revision on these specific topics.
+                    </p>
+                </div>
+
+                <div class="hot-topic-grid" id="predictionsGrid">
+                    <!-- Populated dynamically -->
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Submission Confirmation Modal -->
+    <div class="modal-overlay" id="submitConfirmModal">
+        <div class="modal-content">
+            <h3 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.75rem;">Submit Biology Exam Paper?</h3>
+            <p id="submitConfirmMsg" style="font-size: 0.92rem; color: #475569; line-height: 1.5; margin-bottom: 1.5rem;">
+                Are you ready to submit your paper for grading?
+            </p>
+            <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+                <button type="button" class="btn btn-outline" onclick="window.appInstance.closeSubmitModal()">Review Paper</button>
+                <button type="button" class="btn btn-accent" onclick="window.appInstance.submitExam()">Yes, Submit Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/exam_data.js"></script>
+    <script src="js/evaluator.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
